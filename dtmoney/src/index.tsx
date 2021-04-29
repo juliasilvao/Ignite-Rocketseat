@@ -14,7 +14,7 @@ createServer({
         {
           id: 1,
           title: "Lanche McDonald's",
-          value: 35.00,
+          amount: 35.00,
           category: "Comida",
           type: "withdraw",
           createdAt: new Date('2021-04-29 12:30:00')
@@ -22,7 +22,7 @@ createServer({
         {
           id: 2,
           title: "Notebook",
-          value: 1500.00,
+          amount: 1500.00,
           category: "Vendas",
           type: "deposit",
           createdAt: new Date('2021-02-15 15:00:00')
@@ -30,7 +30,7 @@ createServer({
         {
           id: 3,
           title: "Desenvolvimento de Site",
-          value: 5000.00,
+          amount: 5000.00,
           category: "Freelance",
           type: "deposit",
           createdAt: new Date('2021-02-19 19:10:00')
